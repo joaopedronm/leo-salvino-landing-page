@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon2.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Leonardo Salvino - Video Maker</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="index.html" class="nav__logo"><img src="./assets/img/logo/logo-black-white.png" alt="" width="40px"></a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="index.html" class="nav__link">Home</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="about.html" class="nav__link">Sobre</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="work.html" class="nav__link">Portfólio</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="work.html" class="nav__link">Empresas</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="contact.html" class="button">Contato</a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+
+            <div class="nav__actions">
+               <!-- Theme button -->
+               <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+               <!-- Toggle button -->
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-apps-2-line"></i>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section">
+            <div class="home__rectangle"></div>
+
+            <div class="home__container container grid">
+               <div class="home__perfil perfil">
+                  <div class="perfil__content">
+                     <!-- Insert your profile image ( square ratio 300 x 300, 600 x 600... ) -->
+                     <img src="assets/img/home-perfil.png" alt="image" class="perfil__img">
+                  </div>
+               </div>
+
+               <div class="home__content grid">
+                  <div class="home__data grid">
+                     <h3 class="home__hello">Olá, me chamo</h3>
+                     <h1 class="home__name">Léo</h1>
+   
+                     <h2 class="home__profession">Fotógrafo & Vídeo Maker</h2>
+   
+                     <!-- Insert your social links ( change icons at https://remixicon.com/ ) -->
+                     <div class="home__social">
+                        <a href="https://instagram.com/" target="_blank" class="home__social-link">
+                           <i class="ri-instagram-fill"></i>
+                        </a>
+   
+                        <a href="https://www.youtube.com/" target="_blank" class="home__social-link">
+                           <i class="ri-youtube-fill"></i>
+                        </a>
+   
+                        <a href="https://dribbble.com/" target="_blank" class="home__social-link">
+                           <i class="ri-dribbble-line"></i>
+                        </a>
+                     </div>
+                  </div>
+
+                  <!-- Insert your CV -->
+                  <a href="assets/pdf/Liz-Cv.pdf" download="" class="home__button button">Ver Portfólio</a>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section">
+            <h2 class="section__title">
+               Sobre mim            
+            </h2>
+
+            <div class="about__container about__page container grid">
+               <div>
+                  <img src="./assets/img/about.jpg" alt="image" class="about__img">
+               </div>
+
+               <div class="about__content grid">
+                  <div class="about__data grid">
+                     <div class="about__info grid">
+                        <h1 class="about__name">Leonardo Salvino</h1>
+                        <h2 class="about__profession">Seu momento, minha lente.</h2>
+                        <p class="about__description">
+                           Olá, eu sou Leonardo Salvino, e minha paixão por capturar momentos únicos através da fotografia e do vídeo é o que me move todos os dias. <br><br>Com anos de experiência no setor, desenvolvi um olhar atento para detalhes que muitas vezes passam despercebidos, e é essa atenção que transforma <b>cada projeto em uma verdadeira obra de arte.</b>
+                        </p>
+                     </div>
+
+                     <a href="contact.html" class="about__button button">Fale Comigo</a>
+                  </div>
+
+                  <div class="about__skills">
+                     <h3 class="about__skills-title">Ferramentas</h3>
+
+                     <div class="about__skills-content grid">
+                        <img src="assets/img/tools/about-photoshop.svg" alt="image" class="about__skills-img">
+                        <img src="assets/img/tools/about-illustrator.svg" alt="image" class="about__skills-img">
+                        <img src="assets/img/tools/about-premiere.png" alt="image" class="about__skills-img">
+                        <img src="assets/img/tools/about-aftereffects.png" alt="image" class="about__skills-img">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section">
+            <h2 class="section__title">
+               Serviços              
+            </h2>
+
+            <div class="services__container container grid">
+               <article class="services__card">
+                  <i class="ri-camera-fill services__icon"></i>
+                  <h2 class="services__title">Eventos</h2>
+                  <p class="services__description">
+                     Fotos e vídeos de casamentos, aniversários, formaturas, inaugurações, etc.
+                  </p>
+
+                  <button class="services__button button">Detalhes</button>
+
+                  <div class="services__modal">
+                     <div class="services__modal-content">
+                        <i class="ri-close-line services__modal-close"></i>
+
+                        <h2 class="services__modal-title">
+                           Eventos
+                        </h2>
+
+                        <ul class="services__modal-list grid">
+                           <li class="services__modal-item">
+                              Cobertura completa (fotos cerimoniais, convidados, etc.).
+                           </li>
+
+                           <li class="services__modal-item">
+                              Detalhes do evento (decorações, locais e outros elementos que compõem a atmosfera do evento).
+                           </li>
+
+                           <li class="services__modal-item">
+                              Edição profissional (Pós-produção de alta qualidade para realçar cada imagem.)
+                           </li>
+
+                           <li class="services__modal-item">
+                              Galeria Online: Acesso a uma galeria online privada para visualização e download das fotos.
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </article>
+
+               <article class="services__card">
+                  <i class="ri-vidicon-line services__icon"></i>
+                  <h2 class="services__title">Produção de Vídeos</h2>
+                  <p class="services__description">
+                     Vídeos profissionais para diversas finalidades (promocionais, documentários, depoimentos, etc.).
+                  </p>
+
+                  <button class="services__button button">Detalhes</button>
+
+                  <div class="services__modal">
+                     <div class="services__modal-content">
+                        <i class="ri-close-line services__modal-close"></i>
+
+                        <h2 class="services__modal-title">
+                           Produção de Vídeos
+                        </h2>
+
+                        <ul class="services__modal-list grid">
+                           <li class="services__modal-item">
+                              Concepção e Planejamento: Desenvolvimento de roteiro e planejamento detalhado para garantir que suas ideias sejam bem representadas.
+                           </li>
+
+                           <li class="services__modal-item">
+                              Filmagem Profissional: Uso de equipamentos de alta qualidade para capturar vídeos em alta definição.
+                           </li>
+
+                           <li class="services__modal-item">
+                              Direção Criativa: Orientação e direção para garantir que cada cena transmita a mensagem desejada.
+                           </li>
+
+                           <li class="services__modal-item">
+                              Edição e Pós-Produção: Edição profissional, incluindo corte, colorização, adição de efeitos sonoros e música de fundo.
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </article>
+
+               <article class="services__card">
+                  <!-- <i class="services__icon"></i> -->
+                  <img src="./assets/img/drone-icon.png" alt="" class="drone">
+                  <h2 class="services__title">Drone</h2>
+                  <p class="services__description">
+                     Fotos e vídeos aéreos em alta definição, perfeitos para apresentações visuais e inspeções.
+                  </p>
+
+                  <button class="services__button button">Detalhes</button>
+
+                  <div class="services__modal">
+                     <div class="services__modal-content">
+                        <i class="ri-close-line services__modal-close"></i>
+
+                        <h2 class="services__modal-title">
+                           Drone
+                        </h2>
+
+                        <ul class="services__modal-list grid">
+                           <li class="services__modal-item">
+                              Fotografia Aérea: Captura de imagens aéreas de alta resolução, ideais para terrenos, lotes e grandes propriedades.
+                           </li>
+
+                           <li class="services__modal-item">
+                              Filmagem Aérea: Vídeos aéreos em alta definição, perfeitos para apresentações visuais e inspeções.
+                           </li>
+
+                           <li class="services__modal-item">
+                              Inspeções Aéreas: Voo de inspeção para monitoramento de terrenos, construções e infraestrutura.
+                           </li>
+
+                           <li class="services__modal-item">
+                              Perspectiva Única: Fornecimento de ângulos e vistas exclusivas que só um drone pode oferecer.
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== BRANDS ====================-->
+         <section class="brands section">
+            <h2 class="section__title">
+               Clientes              
+            </h2>
+
+            <div class="container grid">
+
+               <div class="logos__marquee">
+                  <div class="marquee__logos">
+                     <img src="./assets/img/brands/png/acarau.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/amilco.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/atdc.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/construir.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/cvp.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/granja.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/ibp.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/marco.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/normatel.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/rp.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/seu-domingo.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/uruoca.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                  </div>
+
+                  <div class="marquee__logos" aria-hidden="true">
+                     <img src="./assets/img/brands/png/acarau.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/amilco.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/atdc.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/construir.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/cvp.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/granja.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/ibp.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/marco.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/normatel.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/rp.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/seu-domingo.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                     <img src="./assets/img/brands/png/uruoca.png" width="150" height="24" loading="eager" class="intro-logos_logo">
+                  </div>
+                  <!-- <div class="marquee__logos" aria-hidden="true"><img src="https://assets-global.website-files.com/5d3e265ac89f6a3e64292efc/5d4234885e4c2e7955fc993c_zendesk.svg" width="125" height="24" loading="eager" alt="Zendesk" class="intro-logos_logo"><img src="https://assets-global.website-files.com/5d3e265ac89f6a3e64292efc/5f68c5ab2b2bc1f1cce91512_rakuten-logo-black.svg" width="100" height="31" loading="eager" alt="Rakuten" class="intro-logos_logo"><img src="https://assets-global.website-files.com/5d3e265ac89f6a3e64292efc/63601e7de4cee932ead423db_logo-nyt.svg" width="222" height="30" loading="eager" alt="" class="intro-logos_logo"><img src="https://assets-global.website-files.com/5d3e265ac89f6a3e64292efc/614898ff2064cdb3edb45ec0_dell-black.svg" width="75" height="25" loading="eager" alt="Dell" class="intro-logos_logo"><img src="https://assets-global.website-files.com/5d3e265ac89f6a3e64292efc/5f68c62e7e087c31a302df7b_upwork-black-webclip.svg" width="105" height="32" loading="lazy" alt="Upwork" class="intro-logos_logo"><img src="https://assets-global.website-files.com/5d3e265ac89f6a3e64292efc/5d4b269921bce7314c68055f_Page%201.svg" width="130" height="25" loading="eager" alt="Lattice" class="intro-logos_logo"><img src="https://assets-global.website-files.com/5d3e265ac89f6a3e64292efc/618d7c5ba338e335284bd8ce_logo-pwc.svg" width="75" height="57" loading="eager" alt="PWC" class="intro-logos_logo cc-pwc"><img src="https://assets-global.website-files.com/5d3e265ac89f6a3e64292efc/5d4c8b2c574a787655d450ce_getaround.svg" width="125" height="30" loading="lazy" alt="Getaround" class="intro-logos_logo"><img src="https://assets-global.website-files.com/5d3e265ac89f6a3e64292efc/5f9880bc2c1d2a36c4cd639b_hellosign.svg" width="145" height="24" loading="lazy" alt="Hellosign" class="intro-logos_logo"><img src="https://assets-global.website-files.com/5d3e265ac89f6a3e64292efc/5f6bac6a70255801a19ae02e_petal-black.svg" width="65" height="24" loading="eager" alt="Petal" class="intro-logos_logo"><img src="https://assets-global.website-files.com/5d3e265ac89f6a3e64292efc/62ed89cc58b878aa2c44aae2_logo-vice.svg" width="89" height="28" loading="eager" alt="Vice" class="intro-logos_logo"></div> -->
+               </div>
+
+            </div>
+         </section>
+
+         <!--==================== WORK ====================-->
+         <section class="work section">
+            <h2 class="section__title">
+               Trabalhos Recentes          
+            </h2>
+
+            <div class="work__container container grid">
+               <article class="work__card">
+                  <a href="#" target="_blank" class="work__link">
+                     <img src="assets/img/work-1.png" alt="image" class="work__img">
+                     <i class="ri-arrow-right-circle-line work__icon"></i>
+                  </a>
+
+                  <h2 class="work__title">Creative Website</h2>
+                  <span class="work__subtitle">Website Design</span>
+               </article>
+
+               <article class="work__card">
+                  <a href="#" target="_blank" class="work__link">
+                     <img src="assets/img/work-2.png" alt="image" class="work__img">
+                     <i class="ri-arrow-right-circle-line work__icon"></i>
+                  </a>
+
+                  <h2 class="work__title">Creative Website</h2>
+                  <span class="work__subtitle">Website Design</span>
+               </article>
+
+               <article class="work__card">
+                  <a href="#" target="_blank" class="work__link">
+                     <img src="assets/img/work-3.png" alt="image" class="work__img">
+                     <i class="ri-arrow-right-circle-line work__icon"></i>
+                  </a>
+
+                  <h2 class="work__title">Awesome App</h2>
+                  <span class="work__subtitle">App Design</span>
+               </article>
+
+               <article class="work__card">
+                  <a href="#" target="_blank" class="work__link">
+                     <img src="assets/img/work-4.png" alt="image" class="work__img">
+                     <i class="ri-arrow-right-circle-line work__icon"></i>
+                  </a>
+
+                  <h2 class="work__title">Awesome App</h2>
+                  <span class="work__subtitle">App Design</span>
+               </article>
+
+               <article class="work__card">
+                  <a href="#" target="_blank" class="work__link">
+                     <img src="assets/img/work-5.png" alt="image" class="work__img">
+                     <i class="ri-arrow-right-circle-line work__icon"></i>
+                  </a>
+
+                  <h2 class="work__title">Interface Design</h2>
+                  <span class="work__subtitle">UI/UX</span>
+               </article>
+
+               <article class="work__card">
+                  <a href="#" target="_blank" class="work__link">
+                     <img src="assets/img/work-6.png" alt="image" class="work__img">
+                     <i class="ri-arrow-right-circle-line work__icon"></i>
+                  </a>
+
+                  <h2 class="work__title">Interface Design</h2>
+                  <span class="work__subtitle">UI/UX</span>
+               </article>
+            </div>
+         </section>
+
+         <!-- TAB LAYOUT - PORTFÓLIO -->
+         <section class="section">
+            <h2 class="section__title">
+               Trabalhos Recentes          
+            </h2>
+
+            <div class="btn-box">
+               <button id="btn1" onclick="openHTML()"><i class="ri-camera-fill icon-work"></i>Institucionais</button>
+               <button id="btn2" onclick="openCSS()"><i class="ri-camera-fill icon-work"></i>Casamentos</button>
+               <button id="btn3" onclick="openJS()"><i class="ri-camera-fill icon-work"></i>Festas / Eventos</button>
+            </div>
+
+            <div class="content1" id="content1">
+               <iframe id="video1" class="grayscale" width="780" height="560" src="https://www.youtube.com/embed/5qCfE31C6fA?si=o4loxKOYdJjtaB14?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               <!-- <h2>HTML</h2> -->
+            </div>
+
+            <div class="content2" id="content2" style="display: none;">
+               <iframe id="video2" class="grayscale" width="780" height="560" src="https://www.youtube.com/embed/5qCfE31C6fA?si=o4loxKOYdJjtaB14?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               <h2>CSS</h2>
+            </div>
+
+            <div class="content3" id="content3" style="display: none;">
+               <iframe id="video3" class="grayscale" width="780" height="560" src="https://www.youtube.com/embed/5qCfE31C6fA?si=o4loxKOYdJjtaB14?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               <h2>JS</h2>
+            </div>
+
+         </section>
+
+         <!--==================== TESTIMONIAL ====================-->
+         <!-- <section class="testimonial section">
+            <h2 class="section__title">
+               What They Say <br> 
+               About Me?   
+            </h2>
+
+            <div class="testimonial__container container">
+               <div class="testimonial__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <article class="testimonial__card swiper-slide">
+                        <div class="testimonial__border">
+                           <img src="assets/img/testimonial-1.png" alt="image" class="testimonial__img">
+                        </div>
+                        
+                        <h2 class="testimonial__name">Jen Will</h2>
+                        <p class="testimonial__description">
+                           I hired a project and the services were of 
+                           quality, the work delivered is of good 
+                           content, excellent work.
+                        </p>
+                     </article>
+
+                     <article class="testimonial__card swiper-slide">
+                        <div class="testimonial__border">
+                           <img src="assets/img/testimonial-2.png" alt="image" class="testimonial__img">
+                        </div>
+                        
+                        <h2 class="testimonial__name">Rial Loz</h2>
+                        <p class="testimonial__description">
+                           I hired a project and the services were of 
+                           quality, the work delivered is of good 
+                           content, excellent work.
+                        </p>
+                     </article>
+
+                     <article class="testimonial__card swiper-slide">
+                        <div class="testimonial__border">
+                           <img src="assets/img/testimonial-3.png" alt="image" class="testimonial__img">
+                        </div>
+                        
+                        <h2 class="testimonial__name">Mey Doth</h2>
+                        <p class="testimonial__description">
+                           I hired a project and the services were of 
+                           quality, the work delivered is of good 
+                           content, excellent work.
+                        </p>
+                     </article>
+
+                     <article class="testimonial__card swiper-slide">
+                        <div class="testimonial__border">
+                           <img src="assets/img/testimonial-4.png" alt="image" class="testimonial__img">
+                        </div>
+                        
+                        <h2 class="testimonial__name">Celi Phet</h2>
+                        <p class="testimonial__description">
+                           I hired a project and the services were of 
+                           quality, the work delivered is of good 
+                           content, excellent work.
+                        </p>
+                     </article>
+                  </div>
+               </div>
+
+               <div class="swiper-pagination"></div>
+            </div>
+         </section> -->
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section">
+            <div class="contact__container container grid">
+               <h2 class="section__title">
+                  A captura perfeita<br> 
+                  está a um clique        
+               </h2>
+
+               <a href="contact.html" class="contact__button button">Fale Comigo</a>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <div class="footer__content grid">
+               <a href="index.html" class="footer__logo"><img src="./assets/img/logo/logo-black-white.png" alt="" width="45px"></a>
+
+               <ul class="footer__links">
+                  <li>
+                     <a href="about.html" class="footer__link">Sobre</a>
+                  </li>
+
+                  <li>
+                     <a href="work.html" class="footer__link">Portfólio</a>
+                  </li>
+
+                  <li>
+                     <a href="contact.html" class="footer__link">Empresas</a>
+                  </li>
+               </ul>
+
+               <div class="footer__social">
+                  <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                     <i class="ri-instagram-fill"></i>
+                  </a>
+
+                  <a href="https://youtube.com/" target="_blank" class="footer__social-link">
+                     <i class="ri-youtube-line"></i>
+                  </a>
+
+                  <a href="https://www.dribble.com/" target="_blank" class="footer__social-link">
+                     <i class="ri-dribbble-line"></i>
+                  </a>
+               </div>
+            </div>
+
+            <span class="footer__copy">
+               &#169; Leonardo Salvino. Todos os direitos reservados.
+               <p style="font-size: .7rem; color: rgb(123, 123, 123); margin-top: 16px;">Desenvolvido por <a style="text-decoration: none; color: rgb(123, 123, 123); font-weight: bold;" href="https://mrfrontend.tech" target="_blank">João Pedro.</a></p>
+            </span>
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== INDEX JS ===============-->
+      <script src="assets/js/index.js"></script>
+
+      <!-- SWITCHER -->
+       <script>
+         var content1 = document.getElementById("content1")
+         var content2 = document.getElementById("content2")
+         var content3 = document.getElementById("content3")
+         var btn1 = document.getElementById("btn1")
+         var btn2 = document.getElementById("btn2")
+         var btn3 = document.getElementById("btn3")
+
+         var player1, player2, player3;
+
+         function onYouTubeIframeAPIReady() {
+            player1 = new YT.Player('video1');
+            player2 = new YT.Player('video2');
+            player3 = new YT.Player('video3');
+         }
+
+
+         function openHTML() {
+            content1.style.display = "flex"
+            content2.style.display = "none"
+            content3.style.display = "none"
+
+            btn1.style.color = "var(--title-color)"
+            btn2.style.color = "var(--text-color)"
+            btn3.style.color = "var(--text-color)"
+
+            player2.pauseVideo();
+            player3.pauseVideo();
+         }
+
+         function openCSS() {
+            content1.style.display = "none"
+            content2.style.display = "flex"
+            content3.style.display = "none"
+
+            btn1.style.color = "var(--text-color)"
+            btn2.style.color = "var(--title-color)"
+            btn3.style.color = "var(--text-color)"
+
+            player1.pauseVideo();
+            player3.pauseVideo();
+         }
+
+         function openJS() {
+            content1.style.display = "none"
+            content2.style.display = "none"
+            content3.style.display = "flex"
+
+            btn1.style.color = "var(--text-color)"
+            btn2.style.color = "var(--text-color)"
+            btn3.style.color = "var(--title-color)"
+
+            player1.pauseVideo();
+            player2.pauseVideo();
+         }
+       </script>
+
+       <!-- VIDEO -->
+      <script defer src="https://www.youtube.com/iframe_api"></script>
+
+   </body>
+</html>

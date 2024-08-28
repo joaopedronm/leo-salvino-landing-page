@@ -27,23 +27,27 @@
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list">
                   <li class="nav__item">
-                     <a href="index.html" class="nav__link">Home</a>
+                     <a href="#home" class="nav__link">Home</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="about.html" class="nav__link">Sobre</a>
+                     <a href="#sobre" class="nav__link">Sobre</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="work.html" class="nav__link">Portfólio</a>
+                     <a href="#servicos" class="nav__link">Serviços</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="work.html" class="nav__link">Empresas</a>
+                     <a href="#clientes" class="nav__link">Clientes</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="contact.html" class="button">Contato</a>
+                     <a href="#portfolio" class="nav__link">Portfólio</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#contato" class="button">Contato</a>
                   </li>
                </ul>
 
@@ -68,7 +72,7 @@
       <!--==================== MAIN ====================-->
       <main class="main">
          <!--==================== HOME ====================-->
-         <section class="home section">
+         <section id="home" class="home section">
             <div class="home__rectangle"></div>
 
             <div class="home__container container grid">
@@ -109,7 +113,7 @@
          </section>
 
          <!--==================== ABOUT ====================-->
-         <section class="about section">
+         <section id="sobre" class="about section">
             <h2 class="section__title">
                Sobre mim            
             </h2>
@@ -147,7 +151,7 @@
          </section>
 
          <!--==================== SERVICES ====================-->
-         <section class="services section">
+         <section id="servicos" class="services section">
             <h2 class="section__title">
                Serviços              
             </h2>
@@ -271,7 +275,7 @@
          </section>
 
          <!--==================== BRANDS ====================-->
-         <section class="brands section">
+         <section id="clientes" class="brands section">
             <h2 class="section__title">
                Clientes              
             </h2>
@@ -314,100 +318,36 @@
             </div>
          </section>
 
-         <!--==================== WORK ====================-->
-         <section class="work section">
-            <h2 class="section__title">
-               Trabalhos Recentes          
-            </h2>
-
-            <div class="work__container container grid">
-               <article class="work__card">
-                  <a href="#" target="_blank" class="work__link">
-                     <img src="assets/img/work-1.png" alt="image" class="work__img">
-                     <i class="ri-arrow-right-circle-line work__icon"></i>
-                  </a>
-
-                  <h2 class="work__title">Creative Website</h2>
-                  <span class="work__subtitle">Website Design</span>
-               </article>
-
-               <article class="work__card">
-                  <a href="#" target="_blank" class="work__link">
-                     <img src="assets/img/work-2.png" alt="image" class="work__img">
-                     <i class="ri-arrow-right-circle-line work__icon"></i>
-                  </a>
-
-                  <h2 class="work__title">Creative Website</h2>
-                  <span class="work__subtitle">Website Design</span>
-               </article>
-
-               <article class="work__card">
-                  <a href="#" target="_blank" class="work__link">
-                     <img src="assets/img/work-3.png" alt="image" class="work__img">
-                     <i class="ri-arrow-right-circle-line work__icon"></i>
-                  </a>
-
-                  <h2 class="work__title">Awesome App</h2>
-                  <span class="work__subtitle">App Design</span>
-               </article>
-
-               <article class="work__card">
-                  <a href="#" target="_blank" class="work__link">
-                     <img src="assets/img/work-4.png" alt="image" class="work__img">
-                     <i class="ri-arrow-right-circle-line work__icon"></i>
-                  </a>
-
-                  <h2 class="work__title">Awesome App</h2>
-                  <span class="work__subtitle">App Design</span>
-               </article>
-
-               <article class="work__card">
-                  <a href="#" target="_blank" class="work__link">
-                     <img src="assets/img/work-5.png" alt="image" class="work__img">
-                     <i class="ri-arrow-right-circle-line work__icon"></i>
-                  </a>
-
-                  <h2 class="work__title">Interface Design</h2>
-                  <span class="work__subtitle">UI/UX</span>
-               </article>
-
-               <article class="work__card">
-                  <a href="#" target="_blank" class="work__link">
-                     <img src="assets/img/work-6.png" alt="image" class="work__img">
-                     <i class="ri-arrow-right-circle-line work__icon"></i>
-                  </a>
-
-                  <h2 class="work__title">Interface Design</h2>
-                  <span class="work__subtitle">UI/UX</span>
-               </article>
-            </div>
-         </section>
-
-         <!-- TAB LAYOUT - PORTFÓLIO -->
-         <section class="section">
+         <!--==================== PORTFÓLIO ====================-->
+         <section id="portfolio" class="section">
             <h2 class="section__title">
                Trabalhos Recentes          
             </h2>
 
             <div class="btn-box">
-               <button id="btn1" onclick="openHTML()"><i class="ri-camera-fill icon-work"></i>Institucionais</button>
+               <button id="btn1" onclick="openHTML()" style="text-decoration: underline;"><i class="ri-camera-fill icon-work"></i>Institucionais</button>
                <button id="btn2" onclick="openCSS()"><i class="ri-camera-fill icon-work"></i>Casamentos</button>
                <button id="btn3" onclick="openJS()"><i class="ri-camera-fill icon-work"></i>Festas / Eventos</button>
             </div>
 
             <div class="content1" id="content1">
-               <iframe id="video1" class="grayscale" width="780" height="560" src="https://www.youtube.com/embed/5qCfE31C6fA?si=o4loxKOYdJjtaB14?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-               <!-- <h2>HTML</h2> -->
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/gBmS6lJ66AQ?si=y6tBBHEnamyPwRpv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/ETc0fyxXeMY?si=sTq72-16g_214OCB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/tCWPK0WtyKQ?si=BxZINHutmMK_fQkX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/_U9Jv_WJ5zU?si=7rwZomO5lDJ1UDM1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
 
             <div class="content2" id="content2" style="display: none;">
-               <iframe id="video2" class="grayscale" width="780" height="560" src="https://www.youtube.com/embed/5qCfE31C6fA?si=o4loxKOYdJjtaB14?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-               <h2>CSS</h2>
+               <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/rDsDr08vfPU?si=HP47gRoGNBWj9vTr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/1zHtejyaHXc?si=J3CScnHTv3D9EbIL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/vJS6zZGDMl0?si=ovz2DI5pT6DLyCjG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/JOCAOgHH3Co?si=9FchQ5363JMW4hfp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/joU49yEXick?si=XrO5Ih2yqGvTADjO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
 
             <div class="content3" id="content3" style="display: none;">
-               <iframe id="video3" class="grayscale" width="780" height="560" src="https://www.youtube.com/embed/5qCfE31C6fA?si=o4loxKOYdJjtaB14?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-               <h2>JS</h2>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/yMP1A-9ijlw?si=__UN5vMKXZU4iPaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/2gSwaksYX2Q?si=q8Rg3xO7OW0qagy2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
 
          </section>
@@ -481,7 +421,7 @@
          </section> -->
 
          <!--==================== CONTACT ====================-->
-         <section class="contact section">
+         <section id="contato" class="contact section">
             <div class="contact__container container grid">
                <h2 class="section__title">
                   A captura perfeita<br> 
@@ -558,13 +498,13 @@
          var btn2 = document.getElementById("btn2")
          var btn3 = document.getElementById("btn3")
 
-         var player1, player2, player3;
+         // var player1, player2, player3;
 
-         function onYouTubeIframeAPIReady() {
-            player1 = new YT.Player('video1');
-            player2 = new YT.Player('video2');
-            player3 = new YT.Player('video3');
-         }
+         // function onYouTubeIframeAPIReady() {
+         //    player1 = new YT.Player('video1');
+         //    player2 = new YT.Player('video2');
+         //    player3 = new YT.Player('video3');
+         // }
 
 
          function openHTML() {
@@ -573,8 +513,11 @@
             content3.style.display = "none"
 
             btn1.style.color = "var(--title-color)"
+            btn1.style.textDecoration = "underline"
             btn2.style.color = "var(--text-color)"
+            btn2.style.textDecoration = "none"
             btn3.style.color = "var(--text-color)"
+            btn3.style.textDecoration = "none"
 
             player2.pauseVideo();
             player3.pauseVideo();
@@ -586,8 +529,11 @@
             content3.style.display = "none"
 
             btn1.style.color = "var(--text-color)"
+            btn1.style.textDecoration = "none"
             btn2.style.color = "var(--title-color)"
+            btn2.style.textDecoration = "underline"
             btn3.style.color = "var(--text-color)"
+            btn3.style.textDecoration = "none"
 
             player1.pauseVideo();
             player3.pauseVideo();
@@ -599,8 +545,11 @@
             content3.style.display = "flex"
 
             btn1.style.color = "var(--text-color)"
+            btn1.style.textDecoration = "none"
             btn2.style.color = "var(--text-color)"
+            btn2.style.textDecoration = "none"
             btn3.style.color = "var(--title-color)"
+            btn3.style.textDecoration = "underline"
 
             player1.pauseVideo();
             player2.pauseVideo();
@@ -608,7 +557,6 @@
        </script>
 
        <!-- VIDEO -->
-      <script defer src="https://www.youtube.com/iframe_api"></script>
-
+      <!-- <script defer src="https://www.youtube.com/iframe_api"></script> -->
    </body>
 </html>
